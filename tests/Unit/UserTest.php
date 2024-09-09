@@ -18,6 +18,12 @@ afterAll(function () {
     echo "afterAll";
 });
 
+test('el contructor funciona correctament', function () {
+
+    expect($this->user->name)->toBe('John Doe');
+
+});
+
 test('el nombre del usuario es John Doe', function () {
     expect($this->user->getName())->toBe('John Doe');
 });
