@@ -6,10 +6,12 @@
         }
     },
     "scripts": {
-        "test": "pest"
+        "test": "pest",
+        "coverage": "pest --type-coverage"
     },
     "require-dev": {
-        "pestphp/pest": "^3.0"
+        "pestphp/pest": "^3.0",
+        "pestphp/pest-plugin-type-coverage": "^3.0"
     },
     "config": {
         "allow-plugins": {
